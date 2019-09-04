@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .signup_Sections {
+        padding: 30px;
+        border-radius : 10px;
+        margin-right : 50%;
+        }
+
+        input {
+        width : 40%;
+        padding : 10px 10px;
+        font-size 30px;
+        }
+
+        #generalInfo {
+        background-color : #FACD75
+        }
+
+        #incomeInfo {
+        background-color : #77BFE6
+        }
+
+        #expensesInfo {
+        background-color : #c9daf8
+        }
+
+        #bankingInfo {
+        background-color : #E05A5D
+        }
+
+
+    </style>
+
+</head>
+
+
+<body>
+<h3>Fill in information below...</h3>
+
+<form method="get">
+    <p>General Information</p>
+    <div class="signup_Sections" id="generalInfo">
+        <p>Name</p>
+        <input type="text" name="name" placeholder="Jane Doe">
+        <p>Email</p>
+        <input type="text" name="email" placeholder="name@example.com">
+        <p>Username</p>
+        <input type="text" name="username" placeholder="Username">
+        <p>Password</p>
+        <input type="password" name="password" placeholder="Password">
+    </div>
+
+    <p>Income</p>
+    <div class="signup_Sections" id="incomeInfo">
+        <p>Yearly Salary</p>
+        <input type="text" name="salary" id="salary" placeholder="$Yearly Salary">
+        <p>No yearly salary? Enter your hourly wages.</p>
+        <input type="text" name="wages" id="hourlyWages" placeholder="$Hourly Wages">
+        <p>Have neither? That's alirght! Enter any income this month below.</p>
+        <input type="text" name="altIncome" id="altIncome" placeholder="$Alternative Income">
+    </div>
+
+    <p>Expenses</p>
+    <div class="signup_Sections" id="expensesInfo">
+        <p>Tell us what your monthly expenses are and what category you'd like it in.</p>
+        <input type="text" name="expense" id="expense1"><br>
+        <input type="text" name="expense" id="expense2"><br>
+        <input type="text" name="expense" id="expense3"><br>
+        <input type="text" name="expense" id="expense4">
+    </div>
+
+    <p>Banking</p>
+    <div class="signup_Sections" id="bankingInfo">
+        <p>Account Number</p>
+        <input type="text" name="accountNumber" id="accountNumber" placeholder="Account Number">
+        <p>Routing Number</p>
+        <input type="text" name="routingNumber" id="routingNumber" placeholder="Routing Number">
+    </div>
+
+    <br>
+    <input type="submit" id="createAccount" value="Create Account">
+</form>
+
+
+
+
+</body>
+</html>

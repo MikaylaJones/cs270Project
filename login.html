@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+        body{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align : center;
+        }
+
+        h3, h4 {
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .login_signup {
+        position: relative;
+        padding : 10px 25px;
+        border-radius : 5px;
+        }
+
+        input {
+        width : 50%;
+        padding : 20px 20px;
+        font-size 30px;
+        }
+
+        button {
+        padding : 20px 20px;
+        width: 15%;
+        font-size 20px;
+
+        }
+
+
+
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+<h3><center>Login to view account</center></h3>
+<h4><center>No Account? Sign up below.</center></h4>
+
+<div class="login_signup">
+    <div class="login_Container">
+        <p>Login</p>
+        <input type="text" name="username" placeholder="Username"><br>
+        <input type="password" name="password" placeholder="Password" required><br><br>
+        <button type="submit" id="loginButton">Login</button>
+
+    </div>
+
+    <br>
+    <div class="signup_Container">
+        <p>No Account? Click below to sign up.</p>
+        <button type="button" id="signupButton" onclick="document.location.href='signup.html'">Sign up</button>
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
